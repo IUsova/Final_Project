@@ -1,0 +1,41 @@
+.header {
+    background: khaki;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.header__title a {
+    color: black;
+    text-decoration: none;
+}
+
+.header__title a:visited {
+    color: black;
+}
+
+.header__links {
+    margin-left: auto;
+    display: flex;
+}
+
+.header__link {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    transition: .2s opacity;
+}
+
+.link:visited {
+    color: black;
+}
+
+.link:hover {
+    opacity: .7;
+}
+
